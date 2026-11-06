@@ -162,3 +162,18 @@ let cantidad: 1 =  1;
 3.  Se parecen por que los dos defininen que tipos de datos va a tener y estos son fijos y la diferencia es que enum crea un objeto que tiene las propiedades que nosotros le definimos, y el tipo literal simplemente declara el unico tipo de dato al que se le puede asignar a una variable o constante
 
 4. Un ejemplo para el caso de enum seria cuando queres definir valores que sabes que nunca van a cambiar por ejemplo los dias de la semana y queres agruparlos en algun lado, en cambio el tipo literal se usaria cuando queres que tu constante o variable solo acepte ciertos tipos de valores especificos.
+
+
+
+## Glosario: 10 términos
+
+1. **TypeScript:** Lenguaje basado en JavaScript que añade tipos para ayudar a detectar errores antes de ejecutar el programa.
+2. **Tipado estático:** Comprobación de los tipos durante el desarrollo o la compilación, antes de que el programa se ejecute.
+3. **npm:** Administrador de paquetes de Node.js. Se usa, entre otras cosas, para instalar TypeScript.
+4. **Compilador (`tsc`) y configuración (`tsconfig.json`):** `tsc` comprueba y compila archivos TypeScript a JavaScript. `tsconfig.json` permite configurar cómo lo hace.
+5. **Tipo primitivo:** Tipo básico como `string` para texto, `number` para números y `boolean` para valores verdaderos o falsos.
+6. **Array:** Lista de elementos. Por ejemplo, `string[]` representa una lista de textos.
+7. **Tipo unión:** Tipo que permite más de una opción, como `number | boolean`.
+8. **Parámetro por defecto:** Parámetro de una función que recibe un valor automático si no se proporciona otro.
+9. **`interface` y `type`:** Sirven para describir tipos. Una interfaz suele describir la forma de un objeto; `type` también puede nombrar tipos como uniones o tipos literales.
+10. **`enum` y tipo literal:** Un `enum` agrupa constantes con nombre, como `Estado.Listo`. Un tipo literal restringe un valor a una opción exacta, como `"listo"`.
