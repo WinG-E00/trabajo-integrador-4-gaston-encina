@@ -34,7 +34,7 @@ const nombre: string[] =  ["Gaston", "Jose"]
 ```
 3. El tipo union sirve para que una variable pueda tener dos tipos posibles de datos
 ```ts
-const dosDatos: number | boolean;
+let dosDatos: number | boolean;
 ```
 4. No se se recomienda usar el tipo de dato any, por que desactiva las comprobaciones de tipo en el codigo
 ```ts
